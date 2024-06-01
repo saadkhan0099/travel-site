@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon {
+  color: var(orange);
+}
+
+@layer base {
+  li {
+    @apply px-4 text-sm;
+  }
+  h1 {
+    @apply text-3xl md:text-4xl font-bold uppercase;
+  }
+  button {
+    @apply bg-gradient-to-r from-red-300 to-orange-300  p-3 border rounded-lg  shadow-lg;
+  }
+  .icon {
+    @apply text-2xl cursor-pointer;
+  }
+}
